@@ -1,0 +1,9 @@
+version: "3"
+services:
+  ubuntu_container:
+    build: .
+    ports:
+      - "2244:22"
+      - "8081:80"
+      - "8088:8088"
+      - "3366:3306"
